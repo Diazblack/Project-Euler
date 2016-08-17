@@ -1,0 +1,22 @@
+// this js to solve the euler problem number 1, find the sum of the multiplayer of 5 and 3, for an specif number
+
+var fibonacci = function() {
+	var fib =  document.getElementById.("fib").value ;
+	var sum = 0;
+	var An = 2;
+	var Ap = 1;
+	var camb = 0;
+
+		while (An <= fib) {
+			if (An % 2 === 0)   {
+				sum += An;
+			}
+		camb = An;
+		An += Ap;
+		Ap = camb;
+		}
+
+		return sum;
+}
+document.getElementById("output").innerHTML = sum;
+
